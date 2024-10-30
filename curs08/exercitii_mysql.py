@@ -5,10 +5,10 @@ my_db = mysql.connector.connect(
     host='localhost',
     user='root',
     password=parola,
-    database='adsgrupa2'
+    # database='adsgrupa2'
 )
 cursor = my_db.cursor()
-# cursor.execute("CREATE DATABASE adsgrupa2")
+cursor.execute("CREATE DATABASE proiectfinalgrupa2orange")
 # cursor.execute('CREATE TABLE projects (id INT AUTO_INCREMENT PRIMARY KEY,'
 #                'name VARCHAR(255),'
 #                'address VARCHAR(255),'
@@ -33,6 +33,6 @@ cursor = my_db.cursor()
 # ]
 # cursor.executemany(sql, val)
 # my_db.commit()
-sql = 'UPDATE projects SET address="Bucuresti" where id=2'
-cursor.execute(sql)
-my_db.commit()
+# sql = 'UPDATE projects SET address="Bucuresti" where id=2'
+# cursor.execute(sql)
+# my_db.commit()

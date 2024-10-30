@@ -8,7 +8,6 @@ my_db = mysql.connector.connect(
     host='localhost',
     user='root',
     password=parola,
-    database='adsgrupa2'
 )
 cursor = my_db.cursor()
 # cursor.execute('CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY,'
