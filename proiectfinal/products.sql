@@ -1,3 +1,8 @@
+CREATE TABLE products (
+                    product_id INTEGER PRIMARY KEY,
+                    product_name TEXT,
+                    category TEXT,
+                    stock INTEGER);
 INSERT INTO products VALUES(1,'Order Accessories','Books',304);
 INSERT INTO products VALUES(2,'Relationship Furniture','Books',302);
 INSERT INTO products VALUES(3,'Who Accessories','Furniture',403);
